@@ -3,162 +3,146 @@
 # This config file is meant for settings that affect your entire site, values
 # which you are expected to set up once and rarely need to edit after that.
 # For technical reasons, this file is *NOT* reloaded automatically when you use
-# `jekyll serve -l -H localhost`. If you change this file, please restart the 
+# `jekyll serve -l -H localhost`. If you change this file, please restart the
 # server process.
-
 # Basic Site Settings
-locale                    : "en-US"
-site_theme                : "default" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
-title                     : "Mehad Ahmed"
-title_separator           : "-"
-name                      : &name "Mehad Ahmed"
-description               : &description "Mehad Ahmed's academic & professional portfolio focusing on Ecology, Blue Carbon, and Sustainable Finance."
-url                       : "https://mehadahmed54-coder.github.io" 
-baseurl                   : "" # the subpath of your site, e.g. "/blog"
-repository                : "mehadahmed54-coder/mehadahmed.github.io"
-
+locale : "en-US"
+site_theme : "default" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
+title : "Blue Carbon & Climate Finance Portfolio"
+title_separator : "-"
+name : &name "Mehad Ahmed Abdalla Ahmed"
+description : &description "Academic and professional portfolio showcasing research in Blue Carbon modeling, risk-adjusted environmental assets, and sustainable finance frameworks."
+url : "https://mehadahmed54-coder.github.io"
+baseurl : "" # the subpath of your site, e.g. "/blog"
+repository : "mehadahmed54-coder/mehadahmed.github.io"
 # Site Author - The following control what appear as part of the author content on the side bar.
-#                If a field is blank the icon and link will not appear, otherwise it will be shown.
-#                Additional customization can be done by editing /_includes/author-profile.html
+# If a field is blank the icon and link will not appear, otherwise it will be shown.
+# Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png" # Make sure to upload your picture to the images folder named profile.png
-  name             : "Mehad Ahmed"
-  pronouns         : "she/her"  
-  bio              : "Early Career Scientist & Environmental Economist specializing in Blue Carbon ecosystems, Regenerative Finance (ReFi), and Climate Asset Modeling."
-  location         : "Sudan / Egypt"
-  employer         : "University of Khartoum (Alumna) & AGU Member"
-  uri              : # Leave blank or add your personal landing page
-  email            : "Mehadahmed54@gmail.com" # Updated with your email
-
+  avatar : "profile.png" # Make sure to upload your picture to the images folder named profile.png
+  name : "Mehad Ahmed Abdalla Ahmed"
+  pronouns : "she/her"
+  bio : "Environmental Scientist, Spatial Analyst, and Sustainable Finance Researcher focused on Valuing Coastal Ecosystems and pioneering Nature-based Solutions (NbS)."
+  location : "Egypt"
+  employer : "University of Khartoum"
+  uri : # Leave blank or add your personal landing page
+  email : "mehadahmed54@gmail.com" # Updated with your email
   # Academic websites
-  academia          : # URL 
-  arxiv             : # URL
-  googlescholar     : # URL 
-  inspire-hep       : # URL
-  impactstory       : # URL
-  orcid             : # URL 
-  semantic          : # URL
-  ssrn              : # URL
-  pubmed            : # URL
-  researchgate      : # URL 
-  scopus            : # URL
-  zotero            : # URL
-
-
+  academia : # URL
+  arxiv : # URL
+  googlescholar : # URL
+  inspire-hep : # URL
+  impactstory : # URL
+  orcid : # URL
+  semantic : # URL
+  ssrn : # URL
+  pubmed : # URL
+  researchgate : # URL
+  scopus : # URL
+  zotero : # URL
   # Repositories and software development
-  bitbucket        : # Username
-  codepen          : # Username
-  dribbble         : # Username
-  github           : "mehadahmed54-coder"
-  kaggle           : # Username  
-  stackoverflow    : # User number 
-
+  bitbucket : # Username
+  codepen : # Username
+  dribbble : # Username
+  github : "mehadahmed54-coder"
+  kaggle : # Username
+  stackoverflow : # User number
   # Social media
-  artstation       : # Username
-  bluesky          : # Username
-  facebook         : # Username
-  flickr           : # Username
-  foursquare       : # Username
-  goodreads        : # Username
-  google_plus      : # Username
-  keybase          : # Username
-  instagram        : # Username
-  lastfm           : # Username
-  linkedin         : "https://www.linkedin.com/in/mehad-ahmed-611a95379" # Updated with your LinkedIn profile URL
-  mastodon         : # URL
-  medium           : # URL
-  pinterest        : # Username
-  soundcloud       : # Username
-  steam            : # Username
-  telegram         : # URL
-  tumblr           : # Username
-  twitter          : # Username for X / Twitter
-  vine             : # Username
-  weibo            : # Username
-  wikipedia        : # Username
-  xing             : # Username
-  youtube          : # Username
-  zhihu            : # Username
-
+  artstation : # Username
+  bluesky : # Username
+  facebook : # Username
+  flickr : # Username
+  foursquare : # Username
+  goodreads : # Username
+  google_plus : # Username
+  keybase : # Username
+  instagram : # Username
+  lastfm : # Username
+  linkedin : "mehad-ahmed-611a95379" # Updated with your LinkedIn profile URL
+  mastodon : # URL
+  medium : # URL
+  pinterest : # Username
+  soundcloud : # Username
+  steam : # Username
+  telegram : # URL
+  tumblr : # Username
+  twitter : # Username for X / Twitter
+  vine : # Username
+  weibo : # Username
+  wikipedia : # Username
+  xing : # Username
+  youtube : # Username
+  zhihu : # Username
 # Publication Category - The following the list of publication categories and their headings
 publication_category:
   books:
     title: 'Books'
   manuscripts:
-    title: 'Journal Articles & Manuscripts'    
+    title: 'Journal Articles & Manuscripts'
   conferences:
     title: 'Conference Papers & Presentations'
-
 # Site Settings
-teaser                   :  # filename of teaser fallback teaser image placed in /images/ for social media previews
-breadcrumbs              : false # true, false (default)
-words_per_minute         : 160
-future                   : true
-read_more                : "disabled" # if enabled, adds "Read more" links to excerpts
-talkmap_link             : false      #change to true to add link to talkmap on talks page
+teaser : # filename of teaser fallback teaser image placed in /images/ for social media previews
+breadcrumbs : false # true, false (default)
+words_per_minute : 160
+future : true
+read_more : "disabled" # if enabled, adds "Read more" links to excerpts
+talkmap_link : false #change to true to add link to talkmap on talks page
 comments:
-  provider               : false # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "custom"
+  provider : false # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "custom"
   disqus:
-    shortname            :
+    shortname :
   discourse:
-    server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
+    server : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
   facebook:
-    appid                :
-    num_posts            : # 5 (default)
-    colorscheme          : # "light" (default), "dark"
+    appid :
+    num_posts : # 5 (default)
+    colorscheme : # "light" (default), "dark"
 staticman:
-  allowedFields          : ['name', 'email', 'url', 'message']
-  branch                 : "master" 
-  commitMessage          : "New comment."
-  filename               : comment-{@timestamp}
-  format                 : "yml"
-  moderation             : true
-  path                   : "_data/comments/{options.slug}"
-  requiredFields         : ['name', 'email', 'message']
+  allowedFields : ['name', 'email', 'url', 'message']
+  branch : "master"
+  commitMessage : "New comment."
+  filename : comment-{@timestamp}
+  format : "yml"
+  moderation : true
+  path : "_data/comments/{options.slug}"
+  requiredFields : ['name', 'email', 'message']
   transforms:
-    email                : "md5"
+    email : "md5"
   generatedFields:
     date:
-      type               : "date"
+      type : "date"
       options:
-        format           : "iso8601" # "iso8601" (default), "timestamp-seconds", "timestamp-milliseconds"
+        format : "iso8601" # "iso8601" (default), "timestamp-seconds", "timestamp-milliseconds"
 atom_feed:
-  hide                   : false     # change to true to hide the RSS feed in the footer
-  path                   : # blank (default) uses feed.xml
-
-
+  hide : false # change to true to hide the RSS feed in the footer
+  path : # blank (default) uses feed.xml
 # SEO Related
 google_site_verification :
-bing_site_verification   :
-alexa_site_verification  :
+bing_site_verification :
+alexa_site_verification :
 yandex_site_verification :
-
-
 # Social Sharing
 twitter:
-  username               : &twitter
+  username : &twitter
 facebook:
-  username               :
-  app_id                 :
-  publisher              :
-og_image                 :  # Social media default site image
-og_description           :  # Social media default site image description
+  username :
+  app_id :
+  publisher :
+og_image : # Social media default site image
+og_description : # Social media default site image description
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
-  type                   : # Person or Organization (defaults to Person)
-  name                   : # If the user or organization name differs from the site's name
+  type : # Person or Organization (defaults to Person)
+  name : # If the user or organization name differs from the site's name
   links: # An array of links to social media profiles
-
-
 # Analytics
 analytics:
-  provider               :  "false" # false (default), "google", "google-universal", "google-analytics-4", "custom"
+  provider : "false" # false (default), "google", "google-universal", "google-analytics-4", "custom"
   google:
-    tracking_id          :
-
-
+    tracking_id :
 # Reading Files
 include:
   - .htaccess
@@ -196,16 +180,12 @@ keep_files:
   - .svn
 encoding: "utf-8"
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
-
-
 # Conversion
 markdown: kramdown
 highlighter: rouge
 lsi: false
 excerpt_separator: "\n\n"
 incremental: false
-
-
 # Markdown Processing
 kramdown:
   input: GFM
@@ -216,8 +196,6 @@ kramdown:
   toc_levels: 1..6
   smart_quotes: lsquo,roughs,ldquo,rdquo
   enable_coderay: false
-
-
 # These settings control the types of collections used by the template
 collections:
   teaching:
@@ -232,8 +210,6 @@ collections:
   talks:
     output: true
     permalink: /:collection/:path/
-
-
 # These settings control how pages and collections are included in the site
 defaults:
   # _posts
@@ -289,21 +265,15 @@ defaults:
       layout: talk
       author_profile: true
       share: true
-
-
 # Sass/SCSS
 sass:
   sass_dir: _sass
   style: compressed # https://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
-
-
 # Outputting
 permalink: /:categories/:title/
 # paginate: 5 # amount of posts to show
 # paginate_path: /page:num/
 timezone: Etc/UTC # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-
-
 # Plugins
 plugins:
   - jekyll-feed
@@ -312,7 +282,6 @@ plugins:
   - jekyll-sitemap
   - jekyll-redirect-from
   - jemoji
-
 # Mimic GitHub Pages with --safe
 whitelist:
   - jekyll-feed
@@ -321,8 +290,6 @@ whitelist:
   - jekyll-sitemap
   - jekyll-redirect-from
   - jemoji
-
-
 # Archives
 category_archive:
   type: liquid
@@ -330,8 +297,6 @@ category_archive:
 tag_archive:
   type: liquid
   path: /tags/
-
-
 # HTML Compression
 compress_html:
   clippings: all
