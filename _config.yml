@@ -6,7 +6,7 @@
 # `jekyll serve -l -H localhost`. If you change this file, please restart the
 # server process.
 # Basic Site Settings
-locale : "en-US"
+locale : "Egypt"
 site_theme : "default" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
 title : "Blue Carbon & Climate Finance Portfolio"
 title_separator : "-"
@@ -18,7 +18,8 @@ repository : "mehadahmed54-coder/mehadahmed.github.io"
 # Site Author - The following control what appear as part of the author content on the side bar.
 # If a field is blank the icon and link will not appear, otherwise it will be shown.
 # Additional customization can be done by editing /_includes/author-profile.html
-author:
+author: name: "Mehad Ahmed Abdallah Ahmed"
+  bio: "Ecology and Environmental Science graduate specializing in Blue Carbon modeling, climate finance ecosystems, and geospatial analytics."
   # Biographic information
   avatar : "profile.png" # Make sure to upload your picture to the images folder named profile.png
   name : "Mehad Ahmed Abdalla Ahmed"
@@ -34,7 +35,7 @@ author:
   googlescholar : # URL
   inspire-hep : # URL
   impactstory : # URL
-  orcid : # URL
+  orcid : "https://orcid.org/0000-0004-3997-3130"
   semantic : # URL
   ssrn : # URL
   pubmed : # URL
